@@ -1,0 +1,37 @@
+# Rojo build output
+build/
+*.rbxlx
+*.rbxl
+*.rbxm
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Environment variables (API keys)
+.env
+.env.local
+
+# VS Code (keep settings.json for team)
+.vscode/*
+!.vscode/settings.json
+
+# Rust
+target/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Roblox Studio temp
+*.rbxlx.lock
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Logs
+*.log
