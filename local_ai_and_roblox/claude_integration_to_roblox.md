@@ -9,8 +9,6 @@ D:\projects\roblox\local_ai_and_roblox
 D:\projects\roblox\design_principles
 
 
-
-
 a structured approach to integrate an AI service (e.g., an API like Grok's xAI, OpenAI's GPT, or a custom local AI model) with Roblox Studio. The goal is to enable seamless building, creating, testing, and integration of Roblox games via Lua scripts. This setup leverages Windows tools for automation, Roblox's ecosystem for development, and AI for code generation, optimization, and debugging.
 The core idea is to create a file-system-based workflow where AI interacts with Lua scripts on disk, and these scripts are synced bidirectionally with Roblox Studio. This avoids manual copy-pasting, enables version control, and allows automated testing. We'll use:
 

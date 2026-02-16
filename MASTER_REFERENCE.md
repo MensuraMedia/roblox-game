@@ -208,11 +208,36 @@ See [local_ai_and_roblox/claude_integration_to_roblox.md](local_ai_and_roblox/cl
 
 ---
 
+## Programmatic Publishing
+
+The system supports **fully automated publishing** to Roblox via the Open Cloud API.
+
+### Quick Publish Commands
+
+```bash
+bash tools/publish.sh                         # Build + publish (one command)
+node tools/roblox-api.js publish              # Publish via Node.js
+node tools/roblox-api.js list-versions        # Verify published versions
+node tools/roblox-api.js datastore-get <n> <k> # Read player data
+```
+
+### Requirements
+
+- `.env` file with `ROBLOX_OPEN_CLOUD_API_KEY`, `ROBLOX_UNIVERSE_ID`, `ROBLOX_PLACE_ID`
+- API key created at [creator.roblox.com/credentials](https://creator.roblox.com/credentials)
+- Universe/Place created once in Studio (API cannot create new universes)
+
+See [PUBLISHING_GUIDE.md](PUBLISHING_GUIDE.md) for full details.
+
+---
+
 ## Document Index
 
 | Document | Path | Purpose |
 |----------|------|---------|
 | **Master Reference** | `MASTER_REFERENCE.md` | This file - comprehensive project index |
+| **Agent Capabilities** | `AGENT_CAPABILITIES.md` | All programmatic operations for AI agents |
+| **Publishing Guide** | `PUBLISHING_GUIDE.md` | Automated build and deploy pipeline |
 | **Project Structure** | `PROJECT_STRUCTURE.md` | Architecture, folders, Rojo mapping |
 | **Development Workflow** | `DEVELOPMENT_WORKFLOW.md` | Step-by-step processes and checklists |
 | **Toolchain Setup** | `TOOLCHAIN_SETUP.md` | Installation, configuration, troubleshooting |
@@ -222,3 +247,10 @@ See [local_ai_and_roblox/claude_integration_to_roblox.md](local_ai_and_roblox/cl
 | **Roact UI Library** | `design_principles/roact_ui_library.md` | UI framework guide with examples |
 | **Menu Systems** | `design_principles/menu_systems.md` | Menu implementation (WIP) |
 | **AI Integration** | `local_ai_and_roblox/claude_integration_to_roblox.md` | Rojo setup, MCP servers, AI workflow |
+
+### Tools & Scripts
+
+| Script | Path | Purpose |
+|--------|------|---------|
+| **Publish Script** | `tools/publish.sh` | Build Rojo project and publish to Roblox |
+| **API Helper** | `tools/roblox-api.js` | Open Cloud API operations (publish, DataStore, etc.) |
