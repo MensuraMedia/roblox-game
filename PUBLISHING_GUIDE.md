@@ -34,6 +34,7 @@ node tools/roblox-api.js datastore-set <store> <key> <json>
 | `ROBLOX_UNIVERSE_ID` | Your game's universe ID | Creator Dashboard → Game → Settings → Basic Info |
 | `ROBLOX_PLACE_ID` | Your game's starting place ID | Creator Dashboard → Game → Places |
 | `ROBLOX_USER_ID` | Your Roblox user ID | `10484973275` (Mensura222) |
+| `ROBLOX_EXPERIENCE_NAME` | Current experience name | `Deck 22` |
 
 ### API Key Permissions Required
 

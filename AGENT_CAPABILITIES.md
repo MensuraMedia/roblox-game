@@ -10,6 +10,9 @@
 | Component | Value |
 |-----------|-------|
 | **Roblox Account** | Mensura222 (User ID: 10484973275) |
+| **Experience** | Deck 22 (Private) |
+| **Universe ID** | 9742367441 |
+| **Place ID** | 106979621663843 |
 | **GitHub Repo** | MensuraMedia/roblox-game |
 | **Local Project** | D:\projects\roblox\ |
 | **Platform** | Windows 11 Pro (full admin) |
