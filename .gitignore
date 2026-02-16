@@ -12,12 +12,16 @@ package-lock.json
 .env
 .env.local
 
-# VS Code (keep settings.json for team)
+# VS Code (keep settings.json and extensions.json for team)
 .vscode/*
 !.vscode/settings.json
+!.vscode/extensions.json
 
-# Rust
+# Rust build artifacts
 target/
+
+# MCP server submodule build artifacts
+tools/roblox-studio-mcp/
 
 # Windows
 Thumbs.db

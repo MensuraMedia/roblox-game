@@ -4,6 +4,25 @@
 
 ---
 
+## Current Installation Status
+
+| Tool | Version | Status |
+|------|---------|--------|
+| **Windows 11 Pro** | - | ✅ Installed (full admin) |
+| **Roblox Studio** | version-6df69e4610344376 | ✅ Installed |
+| **Git** | 2.53.0 | ✅ Installed |
+| **GitHub CLI** | 2.86.0 | ✅ Authenticated (MensuraMedia) |
+| **Node.js** | 24.13.0 | ✅ Installed (npm 11.6.2) |
+| **Rust/Cargo** | rustc 1.93.1, cargo 1.93.1 | ✅ Installed via rustup 1.28.2 |
+| **Rojo** | 7.6.1 | ✅ Installed via cargo |
+| **Selene** | 0.29.0 | ✅ Installed (Luau linter) |
+| **StyLua** | 2.3.1 | ✅ Installed (Luau formatter) |
+| **MCP Server (kevinswint)** | 0.1.0 | ✅ Built from source |
+| **roblox-mcp (npm)** | Latest | ✅ Installed globally |
+| **VS Code** | - | ⚠️ Install extensions (see below) |
+
+---
+
 ## Prerequisites
 
 | Requirement | Details |
