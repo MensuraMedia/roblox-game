@@ -1,4 +1,5 @@
 # StyLua formatter configuration for Roblox Luau
+syntax = "All"
 column_width = 100
 line_endings = "Unix"
 indent_type = "Tabs"
